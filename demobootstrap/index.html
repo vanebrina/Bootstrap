@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="resources/css/custom.css">
+
+    <script defer type="module" src="resources/js/index.js"></script>
+</head>
+
+
+<body>
+
+    <!-- Toast -->
+    <div id="on-top" class="position-fixed top-0 end-0 p-3">
+        <div id="message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <i id="icon"></i>
+                <strong class="me-auto"></strong>
+            </div>
+            <div class="toast-body"></div>
+        </div>
+    </div>
+    
+    <div class="card border-0 shadow p-3 m7-5 bg-body" style="width: 18rem;">
+        <img src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" class="card-img-top rounded-top" alt="ranita">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+            </p>
+            <button type="submit" class="btn btn-primary" title="Send">
+                <span class="bi bi-arrow-left-right m-1"></span> Go somewhere
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="utilities" class="visually-hidden">
+        <div class="modal" id="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <header class="modal-header">
+                        <h5 class="modal-title" id="title"></h5>
+                        <button id="close" type="button" class="btn-close"></button>
+                    </header>
+                    <div id="content" class="modal-body"></div>
+                    <footer class="modal-footer"></footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+
+
+
+</html>
